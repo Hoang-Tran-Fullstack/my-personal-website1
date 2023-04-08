@@ -4,32 +4,32 @@ nav {
     
   }
   
-  nav ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     
   }
   
-  nav li {
-    float: right;
-    
+nav li {
+    float: right; 
   }
   
-  nav li a {
+nav li a {
     display: block;
     color: rgb(72, 54, 26);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 40px;
+    font-weight: bold;
   }
   
-  nav li a:hover {
+nav li a:hover {
     background-color: #cfc2af;
   }
   
-  #hoang{
+#hoang{
     float: left;
     display: block;
     color: rgb(72, 54, 26);
@@ -37,4 +37,33 @@ nav {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 60px;
+    font-weight: bolder;
   }
+
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px;
+    padding: 0;
+    color:rgb(100, 81, 51) ;
+  }
+
+  
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+.intro{
+    font-size: 40px;
+    text-align: center;
+}
+
+.quote{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #6c6354;
+}
