@@ -94,3 +94,19 @@ h3 {
   margin-left: 15px;
 
 }
+
+.project{
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(110, 137, 103, 0.4);
+  padding: 20px;
+  margin: 15px;
+}
+
+img{
+ width: 200px;
+ height: 140px;
+  float: left;
+  margin-right: 15px;
+
+}
