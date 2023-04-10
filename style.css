@@ -43,7 +43,7 @@ nav li a:hover {
   body {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    margin: 5px;
+    margin: 10px;
     padding: 0;
     color:rgb(100, 81, 51) ;
   }
@@ -118,4 +118,14 @@ img{
 button{
   background-color: #716c63;
   
+}
+
+#text{
+  width: 250px;
+  height: 50px;
+}
+
+.contact{
+  text-align: center;
+  color: #9f9787;
 }
