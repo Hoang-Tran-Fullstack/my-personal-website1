@@ -1,5 +1,4 @@
 nav {
-    background-color: #a39a8a;
     overflow: hidden;
     
   }
@@ -17,33 +16,34 @@ nav li {
   
 nav li a {
     display: block;
-    color: rgb(72, 54, 26);
+    color: rgb(196, 186, 170);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
   }
   
 nav li a:hover {
-    background-color: #cfc2af;
+    background-color: #3a342a;
   }
   
 #hoang{
     float: left;
     display: block;
-    color: rgb(72, 54, 26);
+    color: rgb(196, 186, 170);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 60px;
     font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   body {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    margin: 20px;
+    margin: 5px;
     padding: 0;
     color:rgb(100, 81, 51) ;
   }
@@ -51,9 +51,17 @@ nav li a:hover {
   
 h1 {
     font-size: 50px;
-    margin-bottom: 10px;
     text-align: center;
+    color: #716c63;
   }
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+  font-size: 60px;
+}
   
 .intro{
     font-size: 40px;
@@ -66,4 +74,23 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     color: #6c6354;
+}
+
+.aboutact{
+  font-size: 30px;
+  color: rgb(213, 209, 203);
+}
+
+.aboutimg{
+  width: 300px;
+  height: 230px;
+  float: left;
+  margin-right: 15px;
+}
+.aboutimgright{
+  width: 300px;
+  height: 230px;
+  float: right;
+  margin-left: 15px;
+
 }
