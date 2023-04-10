@@ -1,2 +1,7 @@
-//alert for user
-alert("Welcome to my Personal Website")
+//greeting new user
+
+function askName() {
+    var name = prompt("What is your name?");
+    alert("Hello, " + name + "!");
+  }
+  
