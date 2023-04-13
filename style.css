@@ -11,6 +11,7 @@ nav ul {
   }
   
 nav li {
+    display: flex;
     float: right; 
   }
   
@@ -45,7 +46,7 @@ nav li a:hover {
     font-size: 16px;
     margin: 10px;
     padding: 0;
-    color:rgb(100, 81, 51) ;
+    color:rgb(131, 111, 79) ;
   }
 
   
@@ -60,7 +61,7 @@ h2 {
 }
 
 h3 {
-  font-size: 60px;
+  font-size: 40px;
 }
   
 .intro{
@@ -112,11 +113,12 @@ img{
 }
 
 .button{
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 button{
-  background-color: #716c63;
+  background-color: #948e84;
   
 }
 
@@ -125,7 +127,7 @@ button{
   height: 50px;
 }
 
-.contact{
+form{
   text-align: center;
   color: #9f9787;
 }
